@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Shrikhand&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-saffron: #FF6B00;
+  --color-saffron-hover: #E05E00;
+  --color-saffron-light: #FFF0E5;
+  --color-gold: #FFC107;
+  --color-espresso: #3E2723;
+  --color-espresso-light: #5D4037;
+  --color-cream: #FFFDF5;
+  --color-cream-dark: #FFF8E1;
+  --color-cream-card: #FFFFFF;
+  
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Shrikhand", cursive;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-espresso);
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-saffron);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-saffron-hover);
+}
+
