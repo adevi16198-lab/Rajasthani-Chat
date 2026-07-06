@@ -112,7 +112,7 @@ export default function Hero() {
               <span className="text-2xl">🍲</span>
               <div className="text-left">
                 <span className="text-[10px] text-espresso-light font-bold block leading-none">Fresh</span>
-                <span className="text-xs text-espresso font-semibold">Aloo Tikki</span>
+                <span className="text-xs text-espresso font-semibold">Bhel Muri</span>
               </div>
             </div>
 
@@ -120,7 +120,7 @@ export default function Hero() {
               <span className="text-2xl">🌮</span>
               <div className="text-left">
                 <span className="text-[10px] text-emerald-600 font-bold block leading-none">Crispy</span>
-                <span className="text-xs text-espresso font-semibold">Pani Puri</span>
+                <span className="text-xs text-espresso font-semibold">Papri Chaat</span>
               </div>
             </div>
           </div>

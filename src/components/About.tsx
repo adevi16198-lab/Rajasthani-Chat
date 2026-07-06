@@ -1,7 +1,7 @@
 import React from 'react';
 import { ShieldCheck, Flame, Heart, Smile, Users, HeartHandshake } from 'lucide-react';
 import { businessDetails } from '../data';
-import alooTikkiImg from '../assets/images/aloo_tikki_chaat_1783319236236.jpg';
+import papdiChaatImg from '../assets/images/classic_papri_chaat_detail_v3_1783326465926.jpg';
 
 export default function About() {
   const highlights = [
@@ -36,7 +36,7 @@ export default function About() {
               {/* Focus Image */}
               <div className="absolute inset-4 rounded-full overflow-hidden border-8 border-white shadow-xl">
                 <img
-                  src={alooTikkiImg}
+                  src={papdiChaatImg}
                   alt="Authentic Rajasthani Spices"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"

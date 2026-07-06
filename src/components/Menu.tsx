@@ -4,7 +4,7 @@ import { Sparkles, MessageSquare, Flame, Check, Search, SlidersHorizontal, Phone
 import { menuItems, businessDetails } from '../data';
 import { MenuItem } from '../types';
 
-type CategoryType = 'All' | 'Pani Puri' | 'Chaat Items' | 'Papdi Chaat';
+type CategoryType = 'All' | 'Chaat Items' | 'Papdi Chaat';
 
 export default function Menu() {
   const [activeCategory, setActiveCategory] = useState<CategoryType>('All');
@@ -12,7 +12,7 @@ export default function Menu() {
   const [onlyBestSellers, setOnlyBestSellers] = useState(false);
   const [selectedSpicyLevel, setSelectedSpicyLevel] = useState<number | null>(null);
 
-  const categories: CategoryType[] = ['All', 'Pani Puri', 'Chaat Items', 'Papdi Chaat'];
+  const categories: CategoryType[] = ['All', 'Chaat Items', 'Papdi Chaat'];
 
   // Filter items based on active criteria
   const filteredItems = useMemo(() => {
@@ -65,7 +65,7 @@ export default function Menu() {
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-espresso/40" size={18} />
               <input
                 type="text"
-                placeholder="Search Bhel Muri, Pani Puri, Batata Puri..."
+                placeholder="Search Bhel Muri, Papri Chaat, Batata Puri..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-11 pr-4 py-3 bg-white border border-espresso/15 focus:border-saffron focus:outline-none rounded-2xl text-sm transition-all shadow-sm text-espresso placeholder:text-espresso/40"

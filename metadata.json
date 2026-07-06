@@ -1,6 +1,6 @@
 {
   "name": "Rajasthani Chat",
-  "description": "Authentic Rajasthani Chat in Siliguri, West Bengal. Discover our delicious menu of Pani Puri, Aloo Tikki, Papdi Chaat, and more with live shop status, reviews, and directions.",
+  "description": "Authentic Rajasthani Chat in Siliguri, West Bengal. Discover our delicious menu of Papdi Chaat, Batata Puri, Bhel Muri, and more with live shop status, reviews, and directions.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

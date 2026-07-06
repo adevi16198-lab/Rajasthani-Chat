@@ -106,7 +106,7 @@ export default function Footer() {
                 </span>
               </div>
               <p className="text-[10px] text-cream-dark/50 leading-relaxed font-light">
-                * Note: All ingredients are made fresh daily, so some high-demand items like Raj Kachori or Special Pani Puri might sell out early in the evening!
+                * Note: All ingredients are made fresh daily, so some high-demand items like Raj Kachori or Special Papri Chaat might sell out early in the evening!
               </p>
             </div>
           </div>

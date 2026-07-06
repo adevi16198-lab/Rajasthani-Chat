@@ -2,8 +2,6 @@ import { MenuItem, Review, GalleryItem, FAQItem, BusinessDetails } from './types
 
 // Import our beautiful generated high-quality images
 import heroImg from './assets/images/rajasthani_chaat_hero_1783319209516.jpg';
-import paniPuriImg from './assets/images/pani_puri_close_up_1783319223316.jpg';
-import alooTikkiImg from './assets/images/aloo_tikki_chaat_1783319236236.jpg';
 import papdiChaatImg from './assets/images/classic_papri_chaat_detail_v3_1783326465926.jpg';
 import bhelMuriImg from './assets/images/bhel_muri_chaat_1783323207125.jpg';
 import batataPuriImg from './assets/images/batata_puri_chaat_1783323221073.jpg';
@@ -61,7 +59,7 @@ export const menuItems: MenuItem[] = [
     bengaliName: 'টক-মিষ্টি বাটাটা পুরী',
     description: 'Soft puris filled with spicy potato mix and tangy water – burst of flavors!',
     price: 40,
-    category: 'Pani Puri',
+    category: 'Chaat Items',
     image: batataPuriImg,
     isBestSeller: false,
     customBadge: '💥 Must Try',
@@ -89,7 +87,7 @@ export const reviews: Review[] = [
     id: 'rev-1',
     name: 'Joydeep Sen',
     rating: 5,
-    comment: 'The best chaat in Siliguri! Especially the Raj Kachori and the Shahi Aloo Tikki are out of this world. Clean, tasty, and highly recommended. opens exact 5pm.',
+    comment: 'The best chaat in Siliguri! Especially the Raj Kachori and the Classic Papri Chaat are out of this world. Clean, tasty, and highly recommended. opens exact 5pm.',
     date: '3 days ago',
     avatar: 'JS'
   },
@@ -105,7 +103,7 @@ export const reviews: Review[] = [
     id: 'rev-3',
     name: 'Sourav Das',
     rating: 4,
-    comment: 'Very tasty and affordable! Service is fast even though there is always a huge crowd at ITI More in the evening. Pani puri is super crispy!',
+    comment: 'Very tasty and affordable! Service is fast even though there is always a huge crowd at ITI More in the evening. Batata puri is super crispy!',
     date: '2 weeks ago',
     avatar: 'SD'
   },
@@ -192,15 +190,15 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: 'gal-2',
-    image: paniPuriImg,
-    caption: 'Crisp & crunchy Golgappa (Pani Puri) with cold herbal mint water',
+    image: batataPuriImg,
+    caption: 'Crisp & crunchy Batata Puri with spiced potatoes and tangy water',
     category: 'food'
   },
   {
     id: 'gal-3',
-    image: alooTikkiImg,
-    caption: 'Sizzling hot Aloo Tikki made fresh on our giant tawa every evening',
-    category: 'vibe'
+    image: alooChaatImg,
+    caption: 'Sizzling hot crispy Aloo Chaat tossed in local spices and chutneys',
+    category: 'food'
   },
   {
     id: 'gal-4',
@@ -229,6 +227,6 @@ export const faqItems: FAQItem[] = [
   {
     id: 'faq-4',
     question: 'Is the preparation hygienic?',
-    answer: 'Hygene is our top priority! We use filtered mineral water for our Pani Puri, our staff wears gloves, and we prepare all our ingredients fresh daily.'
+    answer: 'Hygene is our top priority! We use filtered mineral water for our Batata Puri and other delicious chaats, our staff wears gloves, and we prepare all our ingredients fresh daily.'
   }
 ];
